@@ -1,0 +1,107 @@
+@media only screen and (max-width:700px) {
+    
+    .banner-text{
+        display: none;
+    }
+    .banner-text-media h2{
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    .banner-text-media{
+        display: block;
+        text-transform: uppercase;
+        padding: 10% 0% 0%  10%;
+        overflow: hidden;
+        color: #ffff;
+    }
+    .banner-text-media h2 span{
+        font-family: 'Alkalami', serif ;
+        position: relative;
+        font-size: 1.5rem;
+        color: var(--BLUE-color);
+        margin-top: 10px;
+    }
+    .banner-text-media h2 span::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color:#1A1B29;
+        border-left: 4px solid rgb(255, 0, 0);
+        animation: go 4s steps(12) infinite;
+    }
+    @keyframes go {
+        40%, 60%{
+            left: 100%;
+        }
+        100%{
+            left: 0%;
+        }
+    }
+    .banner-text-media button{
+        border: none;
+        width: 140px;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .banner-text-media p{
+        letter-spacing: 5px;
+    }
+    .banner-text-media button a{
+        color: var(--OFFREAD-color);
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .banner-text-media button a:active{
+        background-color: var(--ELECTRIC-BLUE-color);
+        color: #ffff;
+    }
+    .banner-text-media button:active{
+        background-color: var(--ELECTRIC-BLUE-color);
+        color: #ffff !important;
+    }
+    .tab-img img {
+        width: 440px;
+    }
+    .about{
+        height: 1400px;
+        margin-top: -100px !important;
+    }
+    
+    .tab-text{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #tab-text{
+        text-align: start;
+    }
+    .nav-item button{
+        margin-right: 5px;
+    }
+    .contact #input, #subject, #message{
+        background-color: transparent;
+        margin-top: 10px;
+    }
+    .service-card{
+        width: 550px !important;
+        margin: 5px 2px 10px 2px !important;
+    }
+    .Service{
+        margin-top: 20px;
+    }
+    .project-head{
+        text-align: center;
+        width: 100% !important;
+    }
+    .project-head p{
+        text-align: start;
+        color: #4831D4;
+    }
+    .contact2{
+        height: 600px !important;
+        width: 90%;
+    }  
+}
